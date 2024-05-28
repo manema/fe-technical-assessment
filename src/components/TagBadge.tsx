@@ -1,10 +1,5 @@
 
-import { SidebarLink } from './../constants/interfaces';
-
-interface Tag {
-  color: string,
-  name: string
-}
+import { Tag } from './../constants/interfaces';
 
 interface TagBadgeProps {
   tags?: Tag[];
