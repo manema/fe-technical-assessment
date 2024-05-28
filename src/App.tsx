@@ -1,11 +1,9 @@
-import { useEffect } from 'react';
-
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import SideBarLinks  from './components/SidebarLinks';
+import WorkflowList from './components/WorkflowList';
 
 import { sideBarLinks } from './constants';
-
 
 
 function App() {
@@ -17,6 +15,7 @@ function App() {
         </Sidebar>
         <div className="w-full">
           <Header />
+          <WorkflowList />
         </div>
     </div>
   )

@@ -1,11 +1,9 @@
 interface IconButtonProps {
-  label?: string,
   children?: React.ComponentType;
 }
 
-const IconButton = ({ label, children } : IconButtonProps) =>
-    <button className="flex border border-gray-200 rounded-md h-[32px] p-2 items-center">
-      <span className="font-semibold text-xs">{label}</span>
+const IconButton = ({ children } : IconButtonProps) =>
+    <button className="border border-gray-200 hover:bg-slate-300 bg-slate-100 rounded-md h-[24px] w-[24px] p-1 items-center">
       <div>{children}</div>
     </button>
 
